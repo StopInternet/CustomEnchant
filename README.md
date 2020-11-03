@@ -1,2 +1,3 @@
 # CustomEnchant
-A
+Zipファイルはめんどくさい方向け
+
