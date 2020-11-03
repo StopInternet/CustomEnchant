@@ -1,0 +1,1 @@
+execute at @r[nbt={Inventory:[{Slot:103b,tag:{Customtag:nt}}]}] run effect give @p minecraft:night_vision 15 0 true
