@@ -1,0 +1,2 @@
+execute at @r[scores={TB=1},nbt={SelectedItem:{tag:{Customtag:tb}}}] at @e[distance=..5,type=!minecraft:player] run summon minecraft:lightning_bolt ~ ~ ~
+scoreboard players set @r[scores={TB=1..}] TB 0

@@ -1,0 +1,2 @@
+execute at @r[nbt={Inventory:[{Slot:100b,tag:{Customtag:rt}}]}] run effect give @p minecraft:jump_boost 1 3 true
+execute at @r[nbt={Inventory:[{Slot:100b,tag:{Customtag:rt}}]}] run effect give @p minecraft:speed 1 2 true
