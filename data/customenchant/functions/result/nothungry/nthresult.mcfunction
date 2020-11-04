@@ -1,0 +1,1 @@
+execute at @r[nbt={Inventory:[{Slot:102b,tag:{Customtag:nth}}]}] run effect give @p minecraft:saturation 5 0 true

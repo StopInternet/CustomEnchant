@@ -6,3 +6,5 @@ scoreboard objectives add all dummy
 scoreboard objectives add TNTWalker minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add TB minecraft.used:minecraft.golden_axe
 scoreboard objectives add spy minecraft.custom:minecraft.sneak_time
+scoreboard objectives add RTP minecraft.custom:minecraft.sneak_time
+scoreboard objectives add wa minecraft.used:minecraft.golden_sword
