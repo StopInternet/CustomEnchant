@@ -1,0 +1,1 @@
+execute at @r[nbt={Inventory:[{Slot:100b,tag:{Customtag:dm}}]}] run effect give @e[distance=..5] minecraft:poison 5 0

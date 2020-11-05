@@ -6,3 +6,5 @@ function customenchant:result/nightvision/ntresult
 function customenchant:result/randomtp/rtpresult
 function customenchant:result/witheraspect/waresult
 function customenchant:result/nothungry/nthresult
+function customenchant:result/dirtyman/dmresult
+function customenchant:result/antivenom/avresult
