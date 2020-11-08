@@ -1,0 +1,2 @@
+execute at @r[nbt={Inventory:[{Slot:102b,tag:{Customtag:pp}}]}] run effect give @p minecraft:glowing 5 0 true
+execute at @r[nbt={Inventory:[{Slot:102b,tag:{Customtag:pp}}]}] run particle minecraft:crit ~ ~ ~ 0.5 1 0.5 0 10

@@ -1,0 +1,2 @@
+execute at @r[scores={mm=600..},nbt={Inventory:[{Slot:100b,tag:{Customtag:mm}}]}] run summon item ^ ^ ^-2 {Item:{id:"minecraft:gold_nugget",Count:1b}}
+scoreboard players set @r[scores={mm=610..}] mm 0

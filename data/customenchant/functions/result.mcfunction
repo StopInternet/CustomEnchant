@@ -8,3 +8,7 @@ function customenchant:result/witheraspect/waresult
 function customenchant:result/nothungry/nthresult
 function customenchant:result/dirtyman/dmresult
 function customenchant:result/antivenom/avresult
+function customenchant:result/drill/dlresult
+function customenchant:result/makemoney/mmresult
+function customenchant:result/docjotai/djresult
+function customenchant:result/popularperson/ppresult
