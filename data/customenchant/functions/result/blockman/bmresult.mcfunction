@@ -1,0 +1,1 @@
+execute at @r[nbt={Inventory:[{Slot:100b,tag:{Customtag:bm}}]}] run function customenchant:result/blockman/bmcore

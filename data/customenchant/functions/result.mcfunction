@@ -12,3 +12,6 @@ function customenchant:result/drill/dlresult
 function customenchant:result/makemoney/mmresult
 function customenchant:result/docjotai/djresult
 function customenchant:result/popularperson/ppresult
+function customenchant:result/lumber/lmresult
+function customenchant:result/magnet/mgresult
+function customenchant:result/blockman/bmresult

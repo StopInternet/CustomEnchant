@@ -1,0 +1,7 @@
+execute at @e[nbt={Item:{id:"minecraft:player_head",tag:{Customtag:"lm",SkullOwner:{Id:"44bc41c4-85f3-4095-93b1-13dd49d87ee5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY4YWE5YWZhMTg5MzZlM2JmYTczZThkZjYzY2YwN2UyOTRlNDI3ZTA5Nzc1NjRkZGZmYTgwODc3ZGFlYTNhYSJ9fX0="}]}},display:{Lore:['{"text":"エンチャント効果無効","color":"light_purple"}'],Name:'{"text":"ランバーアックスコア"}'}}}}] at @e[distance=..15] run scoreboard players set @e[distance=..10] lm 1
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~ ~1 ~ #customenchant:lumber run setblock ~ ~1 ~ minecraft:air destroy
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~ ~ ~1 #customenchant:lumber run setblock ~ ~ ~1 minecraft:air destroy
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~1 ~ ~ #customenchant:lumber run setblock ~1 ~ ~ minecraft:air destroy
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~ ~-1 ~ #customenchant:lumber run setblock ~ ~-1 ~ minecraft:air destroy
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~-1 ~ ~ #customenchant:lumber run setblock ~-1 ~ ~ minecraft:air destroy
+execute at @e[type=minecraft:item,scores={lm=1}] if block ~ ~ ~-1 #customenchant:lumber run setblock ~ ~ ~-1 minecraft:air destroy
